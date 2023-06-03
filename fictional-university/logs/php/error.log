@@ -1,0 +1,12 @@
+[03-Jun-2023 16:28:18 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Jun-2023 16:30:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Jun-2023 16:31:29 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Jun-2023 16:33:03 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Jun-2023 21:51:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[03-Jun-2023 21:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
