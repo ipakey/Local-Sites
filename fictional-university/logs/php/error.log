@@ -10,3 +10,19 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[05-Jun-2023 05:36:57 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 19
+[05-Jun-2023 05:37:12 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 19
+[05-Jun-2023 16:22:52 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\yjh_6\\...')
+#2 C:\Users\yjh_6\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\yjh_6\\...')
+#3 {main}
+  thrown in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[05-Jun-2023 16:22:57 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\yjh_6\\...')
+#2 C:\Users\yjh_6\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\yjh_6\\...')
+#3 {main}
+  thrown in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
