@@ -5,19 +5,20 @@ get_header();  ?>
     <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg'); ?>)"></div>
     <div class="page-banner__content container container--narrow">
         <h1 class="page-banner__title">
-            <h1 class="page-banner__title">All Events</h1>
+            <h1 class="page-banner__title">Past Events</h1>
             <div class="page-banner__intro">
-                <p>Our complete schedule</p>
+                <!-- <p><?php the_archive_description(); ?></p> -->
+                <p>A recap of our past events</p>
             </div>
     </div>
 </div>
 
 <div class="container container--narrow page-section">
     <?php
-
     $today = date('Ymd');
-    $pageEvents = new WP_Query(
+    $pastEvents = new WP_Query(
         array(
+            'paged' => get_query_var('paged', 1),
             'posts_per_page' => -1,
             'post_type' => 'event',
             'meta_key' => 'event_date',
@@ -26,7 +27,7 @@ get_header();  ?>
             'meta_query' => array(
                 array(
                     'key' => 'event_date',
-                    'compare' => '>=',
+                    'compare' => '<',
                     'value' => $today,
                     'type' => 'numeric'
                 )
@@ -34,8 +35,9 @@ get_header();  ?>
         )
     );
 
-    while ($pageEvents->have_posts()) {
-        $pageEvents->the_post(); ?>
+    while ($pastEvents->have_posts()) {
+        $pastEvents->the_post();
+    ?>
         <div class="event-summary">
             <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
                 <span class="event-summary__month">
@@ -56,11 +58,9 @@ get_header();  ?>
     <?php
     }
     echo paginate_links(array(
-        'total' => $pageEvents->max_num_pages
+        'total' => $pastEvents->max_num_pages
     ));
     ?>
-    <hr class="section-break">
-    <p class="event-summary__title headline headline--tiny"><a href="<?php echo site_url('/past-events'); ?>">our past events</a></p>
 
 </div>
 
