@@ -5,7 +5,8 @@ while (have_posts()) {
 
   pageBanner(array(
     'title' => 'Hello this is the title of the page',
-    'subtitle' => 'Hi this is the subtitle'
+    'subtitle' => 'Hi this is the subtitle',
+    'photo' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmkpasJn7mXzKCXXIyMjxia234a_uGe4U36g&usqp=CAU'
   ));
 ?>
 

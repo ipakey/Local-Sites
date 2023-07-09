@@ -1,0 +1,1 @@
+[07-Jul-2023 15:40:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\the-den-tutoring\app\public\wp-includes\class-wp-customize-widgets.php on line 905
