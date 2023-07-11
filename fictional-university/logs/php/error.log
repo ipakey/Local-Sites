@@ -139,3 +139,6 @@ Stack trace:
 [07-Jul-2023 16:20:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
 [07-Jul-2023 16:22:45 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 15
 [09-Jul-2023 07:26:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[11-Jul-2023 05:09:33 UTC] PHP Parse error:  syntax error, unexpected token "-", expecting ")" in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[11-Jul-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Jul-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\yjh_6\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
